@@ -36,3 +36,32 @@ git init
 '''sh
 git status
 '''
+¡IMPORTANTE! TENGO LA CARPETA EN ESTE CASO, TENIA QUE PONER GIT/README.md 
+
+'''sh
+git commit -m "agrego el readme"
+'''
+con ese comando agrego la modificacion.
+
+## Para confirmar los cambios de un archivo (WD => SA)
+
+'''sh
+git add <nombre-archivo>
+fit add README.md
+gid add README.md css/estilos.css
+git add . # Con el punto (.) o el asterisco (*) agrego todos los archivos que estan (UnTRACKED, MODIFIED) al area intermedia o stanging area (SA)
+'''
+
+## Para hacer un commit [Sacar foto] (SA => LR)
+
+'''sh
+git commit -m "Mensaje explicando que guarde en esa foto"
+git commit -m "Agrego el readme.md"
+'''
+
+## Para ver los commits que estan dentro el repositorio locar (Local REPO)
+
+'''sh
+git log
+git log --oneline
+'''
