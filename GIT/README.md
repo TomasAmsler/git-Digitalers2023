@@ -72,4 +72,10 @@ Con la tecla "Q" hace que salga de ver las modificaciones.
 Por ejemplo en este caso seria el readme que yo guarde en el local repo.
 '''
 
+## Si quiero ver los cambios entre el WD y LR
+
+'''sh
+git diff
+NOT: si se me bloquea la consola. Tengo que apretar la tecla q (quit).
+'''
 
