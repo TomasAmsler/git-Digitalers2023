@@ -65,3 +65,11 @@ git commit -m "Agrego el readme.md"
 git log
 git log --oneline
 '''
+
+'''sh
+git diff sirve para ver los cambios que hice en el archivo.
+Con la tecla "Q" hace que salga de ver las modificaciones.
+Por ejemplo en este caso seria el readme que yo guarde en el local repo.
+'''
+
+
