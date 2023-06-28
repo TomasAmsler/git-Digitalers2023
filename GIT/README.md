@@ -95,4 +95,6 @@ para poder restaurar cualquier archivo eliminado
 ## Agrego la ruta del remoto a mi repositorio local
 '''sh
 git remote add origin https://github.com/TomasAmsler/git-Digitalers2023.git
+
+git push -u origin master (el master es por lo que aparece en celeste, sino puede aparecer main)
 '''
