@@ -84,3 +84,15 @@ git restore (lo que se haya borrado, ejemplo index.html)
 para poder restaurar cualquier archivo eliminado
 
 '''
+
+## Subir repositorio local al repositorio remoto
+
+![img - areas](https://cdn.hashnode.com/res/hashnode/image/upload/v1644871667728/U8uUkYIQa.png?auto=compress,format&format=webp)
+
+# Creamos un repositorio remoto en GitHub
+
+
+## Agrego la ruta del remoto a mi repositorio local
+'''sh
+git remote add origin https://github.com/TomasAmsler/git-Digitalers2023.git
+'''
