@@ -1,4 +1,4 @@
-# Clase 06 - Git Intro
+  # Clase 06 - Git Intro
 
 ## Configuracion inicial.
 ''' sh
@@ -79,3 +79,8 @@ git diff
 NOT: si se me bloquea la consola. Tengo que apretar la tecla q (quit).
 '''
 
+'''sh
+git restore (lo que se haya borrado, ejemplo index.html)
+para poder restaurar cualquier archivo eliminado
+
+'''
