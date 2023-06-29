@@ -97,4 +97,6 @@ para poder restaurar cualquier archivo eliminado
 git remote add origin https://github.com/TomasAmsler/git-Digitalers2023.git
 
 git push -u origin master (el master es por lo que aparece en celeste, sino puede aparecer main)
+
+git config --global init.defaultBranch main con ese comando puedo pasar del master al main.
 '''
