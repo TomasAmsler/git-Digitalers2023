@@ -96,7 +96,40 @@ para poder restaurar cualquier archivo eliminado
 '''sh
 git remote add origin https://github.com/TomasAmsler/git-Digitalers2023.git
 
-git push -u origin master (el master es por lo que aparece en celeste, sino puede aparecer main)
+git push -u origin master (el master es por lo que aparece en celeste, sino puede aparecer main) Solamente la primera vez hay que usar el -u # significa --set-upstream (el -u vincula el remoto con el local)
 
 git config --global init.defaultBranch main con ese comando puedo pasar del master al main.
+
+git push (actualiza el remoto) 
 '''
+
+# Trabajando con ramas
+
+## crear una rama
+'''sh
+git branch <nombre-rama>
+git branch info-ramas # ejemplo
+'''
+
+'''sh
+git switch <nombre-rama>
+git switch info-ramas # ejemplo
+git merge info-branches <nombre-rama> hace que fusione las ramas (el main/master con la rama creada
+)
+
+'''
+## IMPORTANTE: para fusionar la rama, tengo que estar en la rama destino. O sea que si yop me qu8iero traer cambios de la rama info-branches a main, tengo que estar posicionado en la rama main y de ahi ejecutar el siguiente comando
+
+'''sh
+git merge <nombre-rama>
+
+git merge info-branches <nombre-rama> hace que fusione las ramas (el main/master con la rama creada)
+'''
+
+## Tipos de merge
+
+* Fast-forward
+* Recursive
+* Manual
+
+
